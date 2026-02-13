@@ -1,6 +1,7 @@
 # new words
 #test123
 #trying something
+#trying automation
 # some more new words
 #!/bin/sh
 # ----------------------------------------------------------------------------
