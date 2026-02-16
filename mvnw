@@ -1,6 +1,6 @@
-# new words
+#new words
 #test123
-#trying something
+#Trying something
 #Trying automation
 # some more new words
 #!/bin/sh
