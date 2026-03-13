@@ -1,6 +1,6 @@
 #New words n
 #Test12345
-#Trying something
+#Trying something new
 #Trying automation
 # some more new words
 #!/bin/sh
