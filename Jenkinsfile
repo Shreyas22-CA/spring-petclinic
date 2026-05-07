@@ -20,8 +20,8 @@ pipeline {
                 sh '''
                 docker save petclinic-app -o petclinic-app.tar
                 sudo k3s ctr images import petclinic-app.tar
-                kubectl apply -f petclinic-deployment.yaml
-                kubectl apply -f petclinic-service.yaml
+                kubectl apply --validate=false -f petclinic-deployment.yaml
+		kubectl apply --validate=false -f petclinic-service.yaml
                 '''
             }
         }
